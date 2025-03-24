@@ -11,6 +11,7 @@
 		E3DCA1812D91673800893221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1802D91673800893221 /* SceneDelegate.swift */; };
 		E3DCA1832D91673800893221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1822D91673800893221 /* ViewController.swift */; };
 		E3DCA1882D91673A00893221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DCA1872D91673A00893221 /* Assets.xcassets */; };
+		E3DCA19B2D91742F00893221 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA19A2D91742F00893221 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E3DCA1822D91673800893221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3DCA1872D91673A00893221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3DCA18C2D91673A00893221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3DCA19A2D91742F00893221 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = DailyGo/Assets/Colors/Colors.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		E3DCA1992D916A2600893221 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				E3DCA19A2D91742F00893221 /* Colors.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3DCA1832D91673800893221 /* ViewController.swift in Sources */,
+				E3DCA19B2D91742F00893221 /* Colors.swift in Sources */,
 				E3DCA17F2D91673800893221 /* AppDelegate.swift in Sources */,
 				E3DCA1812D91673800893221 /* SceneDelegate.swift in Sources */,
 			);
