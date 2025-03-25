@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "interface-edit-brush-3--brush-color-colors-design-paint-painting-roller-rolling--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "interface-edit-brush-3--brush-color-colors-design-paint-painting-roller-rolling--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "interface-edit-brush-3--brush-color-colors-design-paint-painting-roller-rolling--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

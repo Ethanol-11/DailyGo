@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "interface-add-1--expand-cross-buttons-button-more-remove-plus-add--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "interface-add-1--expand-cross-buttons-button-more-remove-plus-add--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "interface-add-1--expand-cross-buttons-button-more-remove-plus-add--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

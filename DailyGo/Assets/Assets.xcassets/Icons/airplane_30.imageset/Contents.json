@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "phone-mode-airplane--server-plane-airplane-disable-wireless-mode-internet-network 1--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "phone-mode-airplane--server-plane-airplane-disable-wireless-mode-internet-network 1--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "phone-mode-airplane--server-plane-airplane-disable-wireless-mode-internet-network 1--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

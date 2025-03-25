@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "interface-validation-check--check-form-validation-checkmark-success-add-addition--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "interface-validation-check--check-form-validation-checkmark-success-add-addition--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "interface-validation-check--check-form-validation-checkmark-success-add-addition--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

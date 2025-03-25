@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "interface-content-note-pad-text--content-notes-book-notepad-notebook--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "interface-content-note-pad-text--content-notes-book-notepad-notebook--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "interface-content-note-pad-text--content-notes-book-notepad-notebook--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

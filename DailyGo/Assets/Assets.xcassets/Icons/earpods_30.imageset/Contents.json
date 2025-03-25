@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "entertainment-earpods--airpods-audio-earpods-music-earbuds-true-wireless--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "entertainment-earpods--airpods-audio-earpods-music-earbuds-true-wireless--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "entertainment-earpods--airpods-audio-earpods-music-earbuds-true-wireless--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

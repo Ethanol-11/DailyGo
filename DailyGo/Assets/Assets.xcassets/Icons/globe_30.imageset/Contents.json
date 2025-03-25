@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "travel-map-globe--model-planet-earth-globe-world--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "travel-map-globe--model-planet-earth-globe-world--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "travel-map-globe--model-planet-earth-globe-world--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

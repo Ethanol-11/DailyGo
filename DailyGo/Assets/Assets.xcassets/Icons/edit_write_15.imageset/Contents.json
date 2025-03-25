@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "interface-edit-write-1--edit-edition-form-pen-text-write--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "interface-edit-write-1--edit-edition-form-pen-text-write--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "interface-edit-write-1--edit-edition-form-pen-text-write--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
