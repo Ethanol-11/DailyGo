@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "nature-ecology-rice-field--sun-rise-set-field-crop-produce-farm--Streamline-Core.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "nature-ecology-rice-field--sun-rise-set-field-crop-produce-farm--Streamline-Core@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "nature-ecology-rice-field--sun-rise-set-field-crop-produce-farm--Streamline-Core@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
