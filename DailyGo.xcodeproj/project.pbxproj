@@ -13,6 +13,9 @@
 		E3DCA1882D91673A00893221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DCA1872D91673A00893221 /* Assets.xcassets */; };
 		E3DCA19B2D91742F00893221 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA19A2D91742F00893221 /* Colors.swift */; };
 		E3DCA19D2D92952100893221 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA19C2D92952100893221 /* Icons.swift */; };
+		E3DCA1A22D94250E00893221 /* AnonymousPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3DCA1A12D94250E00893221 /* AnonymousPro-Regular.ttf */; };
+		E3DCA1A42D94252000893221 /* Peach Cream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3DCA1A32D94252000893221 /* Peach Cream.ttf */; };
+		E3DCA1A62D9425F100893221 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1A52D9425F100893221 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E3DCA18C2D91673A00893221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3DCA19A2D91742F00893221 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = DailyGo/Assets/Colors/Colors.swift; sourceTree = SOURCE_ROOT; };
 		E3DCA19C2D92952100893221 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		E3DCA1A12D94250E00893221 /* AnonymousPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AnonymousPro-Regular.ttf"; sourceTree = "<group>"; };
+		E3DCA1A32D94252000893221 /* Peach Cream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Peach Cream.ttf"; sourceTree = "<group>"; };
+		E3DCA1A52D9425F100893221 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,8 @@
 		E3DCA1972D916A1700893221 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				E3DCA19E2D94247700893221 /* Resources */,
+				E3DCA1A52D9425F100893221 /* Fonts.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -129,6 +137,15 @@
 				E3DCA19A2D91742F00893221 /* Colors.swift */,
 			);
 			path = Colors;
+			sourceTree = "<group>";
+		};
+		E3DCA19E2D94247700893221 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCA1A32D94252000893221 /* Peach Cream.ttf */,
+				E3DCA1A12D94250E00893221 /* AnonymousPro-Regular.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DCA1A42D94252000893221 /* Peach Cream.ttf in Resources */,
 				E3DCA1882D91673A00893221 /* Assets.xcassets in Resources */,
+				E3DCA1A22D94250E00893221 /* AnonymousPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +223,7 @@
 				E3DCA19B2D91742F00893221 /* Colors.swift in Sources */,
 				E3DCA17F2D91673800893221 /* AppDelegate.swift in Sources */,
 				E3DCA19D2D92952100893221 /* Icons.swift in Sources */,
+				E3DCA1A62D9425F100893221 /* Fonts.swift in Sources */,
 				E3DCA1812D91673800893221 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
