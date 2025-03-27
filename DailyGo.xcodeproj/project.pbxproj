@@ -18,6 +18,7 @@
 		E3DCA1A62D9425F100893221 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1A52D9425F100893221 /* Fonts.swift */; };
 		E3DCA1A92D942CE500893221 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1A82D942CE500893221 /* ButtonStyle.swift */; };
 		E3DCA1AB2D94302B00893221 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1AA2D94302B00893221 /* Button.swift */; };
+		E3DCA1AE2D95342E00893221 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1AD2D95342E00893221 /* Switch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E3DCA1A52D9425F100893221 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		E3DCA1A82D942CE500893221 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		E3DCA1AA2D94302B00893221 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		E3DCA1AD2D95342E00893221 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		E3DCA1932D9168FE00893221 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				E3DCA1AC2D95342100893221 /* Switch */,
 				E3DCA1A72D942CC900893221 /* Button */,
 			);
 			path = UI;
@@ -160,6 +163,14 @@
 				E3DCA1AA2D94302B00893221 /* Button.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		E3DCA1AC2D95342100893221 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				E3DCA1AD2D95342E00893221 /* Switch.swift */,
+			);
+			path = Switch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 				E3DCA1A92D942CE500893221 /* ButtonStyle.swift in Sources */,
 				E3DCA1832D91673800893221 /* ViewController.swift in Sources */,
 				E3DCA19B2D91742F00893221 /* Colors.swift in Sources */,
+				E3DCA1AE2D95342E00893221 /* Switch.swift in Sources */,
 				E3DCA1AB2D94302B00893221 /* Button.swift in Sources */,
 				E3DCA17F2D91673800893221 /* AppDelegate.swift in Sources */,
 				E3DCA19D2D92952100893221 /* Icons.swift in Sources */,
