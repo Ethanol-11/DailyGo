@@ -15,7 +15,6 @@ final class UserPreferencesVC: ViewController {
         super.viewDidLoad()
 
         setupUI()
-        updateStep()
     }
 
     // MARK: - Private Properties
@@ -23,7 +22,8 @@ final class UserPreferencesVC: ViewController {
     private let titleLabel = UILabel()
     private let continueButton = MainButton()
     private let stackView = UIStackView()
-    private var currentStep: Int = 0
+    private var countOfSelected = Int()
+    private var currentStep = Int()
 }
 
 // MARK: - Private Nested Types
@@ -104,18 +104,28 @@ private extension UserPreferencesVC {
         view.addSubview(stackView)
         view.addSubview(continueButton)
 
+        currentStep = 0
+
         setupConstraints()
+        updateStep()
     }
 
     func updateStep() {
         let step = Constants.steps[currentStep]
         titleLabel.text = step.title
+        
+        countOfSelected = 0
+        continueButton.isEnabled = false
 
         stackView.arrangedSubviews.forEach { $0.removeFromSuperview() }
 
         for option in step.options {
             let multiSelectButton = MultiSelectButton(buttonImage: option.image)
             multiSelectButton.title = option.title
+            multiSelectButton.onTap = { _ in
+                self.countOfSelected += multiSelectButton.isSelected ? 1 : -1
+                self.continueButton.isEnabled = self.countOfSelected > 0 ? true : false
+            }
             stackView.addArrangedSubview(multiSelectButton)
         }
     }
