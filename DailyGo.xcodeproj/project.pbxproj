@@ -19,6 +19,8 @@
 		E3DCA1AB2D94302B00893221 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1AA2D94302B00893221 /* MainButton.swift */; };
 		E3DCA1AE2D95342E00893221 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1AD2D95342E00893221 /* Switch.swift */; };
 		E3DCA1B22D9FE78100893221 /* MultiSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1B12D9FE78100893221 /* MultiSelectButton.swift */; };
+		E3DCA1B42D9FF74700893221 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1B32D9FF74700893221 /* WelcomeVC.swift */; };
+		E3DCA1B62DA0031F00893221 /* UserPreferencesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCA1B52DA0031F00893221 /* UserPreferencesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		E3DCA1AA2D94302B00893221 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		E3DCA1AD2D95342E00893221 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		E3DCA1B12D9FE78100893221 /* MultiSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectButton.swift; sourceTree = "<group>"; };
+		E3DCA1B32D9FF74700893221 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		E3DCA1B52DA0031F00893221 /* UserPreferencesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferencesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 		E3DCA1962D916A0600893221 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E3DCA1B32D9FF74700893221 /* WelcomeVC.swift */,
+				E3DCA1B52DA0031F00893221 /* UserPreferencesVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -245,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3DCA1832D91673800893221 /* ViewController.swift in Sources */,
+				E3DCA1B42D9FF74700893221 /* WelcomeVC.swift in Sources */,
 				E3DCA19B2D91742F00893221 /* Colors.swift in Sources */,
+				E3DCA1B62DA0031F00893221 /* UserPreferencesVC.swift in Sources */,
 				E3DCA1AE2D95342E00893221 /* Switch.swift in Sources */,
 				E3DCA1AB2D94302B00893221 /* MainButton.swift in Sources */,
 				E3DCA17F2D91673800893221 /* AppDelegate.swift in Sources */,
