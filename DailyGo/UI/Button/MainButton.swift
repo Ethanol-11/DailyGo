@@ -7,15 +7,9 @@
 
 import UIKit
 
-public class Button: UIControl {
+public class MainButton: UIControl {
 
     // MARK: - Public Properties
-
-    public var style: Button.Style = .defaultStyle {
-        didSet {
-            applyStyle(for: state)
-        }
-    }
 
     public var title: String? {
         didSet {
@@ -37,6 +31,12 @@ public class Button: UIControl {
 
     public var onTap: (() -> Void)?
 
+    override public var isEnabled: Bool {
+        didSet {
+            applyColor(for: state)
+        }
+    }
+
     override public var intrinsicContentSize: CGSize {
         let labelSize = titleLabel.intrinsicContentSize
         return CGSize (
@@ -48,10 +48,9 @@ public class Button: UIControl {
 
     // MARK: - Constructors
 
-    public init(style: Button.Style) {
+    public init() {
         super.init(frame: .zero)
 
-        self.style = style
         setupViews()
         setupConstraints()
     }
@@ -70,7 +69,7 @@ public class Button: UIControl {
 
 // MARK: - Private Nested Types
 
-private extension Button {
+private extension MainButton {
 
     enum Constants {
         static let higlightAlpha: CGFloat = 0.8
@@ -82,11 +81,12 @@ private extension Button {
 
 // MARK: - Private Methods
 
-private extension Button {
+private extension MainButton {
 
     func setupViews() {
         addSubview(titleLabel)
 
+        titleLabel.font = Fonts.anonymousPro_24
         titleLabel.textAlignment = .center
         titleLabel.textColor = .black
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -95,10 +95,10 @@ private extension Button {
 
         addAction(UIAction { [weak self] _ in self?.handleTap() }, for: .touchUpInside)
 
-        applyStyle(for: state)
-
         self.layer.masksToBounds = true
         self.layer.cornerRadius = (titleLabel.font.pointSize + Constants.defaultInsets.bottom + Constants.defaultInsets.top) / 2.0
+
+        applyColor(for: state)
     }
 
     func setupConstraints() {
@@ -112,9 +112,8 @@ private extension Button {
         ])
     }
 
-    func applyStyle(for state: UIControl.State) {
-        backgroundColor = style.backgroundColor
-        titleLabel.font = style.textFont
+    func applyColor(for state: UIControl.State) {
+        backgroundColor = isEnabled ? Colors.lavenderBlue : .gray
     }
 
     func handleTap() {
