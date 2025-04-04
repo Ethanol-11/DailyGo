@@ -89,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E3DCA1AC2D95342100893221 /* Switch */,
-				E3DCA1A72D942CC900893221 /* Button */,
+				E3DCA1A72D942CC900893221 /* Buttons */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -154,12 +154,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		E3DCA1A72D942CC900893221 /* Button */ = {
+		E3DCA1A72D942CC900893221 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
 				E3DCA1AA2D94302B00893221 /* MainButton.swift */,
 			);
-			path = Button;
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		E3DCA1AC2D95342100893221 /* Switch */ = {
